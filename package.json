@@ -32,7 +32,7 @@
   "scripts": {
     "dev": "tsup --watch",
     "build": "tsup",
-    "play":"pnpm -C playground run dev",
+    "play": "pnpm -C playground run dev",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "typecheck": "tsc --noEmit",

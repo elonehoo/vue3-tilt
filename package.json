@@ -1,0 +1,53 @@
+{
+  "name": "vue3-tilt",
+  "type": "module",
+  "version": "0.0.0",
+  "description": "",
+  "author": "Elone Hoo <hi@elonehoo.me>",
+  "license": "MIT",
+  "homepage": "https://github.com/elonehoo/starter-ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elonehoo/starter-ts"
+  },
+  "bugs": "https://github.com/elonehoo/starter-ts/issues",
+  "keywords": [
+    "template",
+    "TypeScript"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.js"
+    }
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.cjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "tsup --watch",
+    "build": "tsup",
+    "play":"pnpm -C playground run dev",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "typecheck": "tsc --noEmit",
+    "release": "bumpp package.json --commit --push --tag && pnpm -r publish --access public"
+  },
+  "dependencies": {
+    "vanilla-tilt": "^1.8.0"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.38.2",
+    "@types/node": "^18.15.11",
+    "bumpp": "^9.1.0",
+    "eslint": "^8.37.0",
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.3",
+    "vite": "^4.2.1",
+    "vue": "^3.2.47"
+  }
+}

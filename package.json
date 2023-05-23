@@ -1,7 +1,7 @@
 {
   "name": "vue3-tilt",
   "type": "module",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Parallax tilt hover effect for Vue JS",
   "author": "Elone Hoo <hi@elonehoo.me>",
   "license": "MIT",

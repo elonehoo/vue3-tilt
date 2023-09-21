@@ -19,8 +19,8 @@
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "require": "./dist/index.cjs",
-      "import": "./dist/index.js"
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
     }
   },
   "main": "dist/index.js",
@@ -40,16 +40,16 @@
     "release": "bumpp package.json --commit --push --tag && pnpm -r publish --access public"
   },
   "dependencies": {
-    "vanilla-tilt": "^1.8.0"
+    "vanilla-tilt": "^1.8.1"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.39.8",
-    "@types/node": "^20.4.5",
-    "bumpp": "^9.1.1",
-    "eslint": "^8.46.0",
-    "tsup": "^7.1.0",
-    "typescript": "^5.1.6",
-    "vite": "^4.4.7",
+    "@antfu/eslint-config": "^0.43.0",
+    "@types/node": "^20.6.3",
+    "bumpp": "^9.2.0",
+    "eslint": "^8.49.0",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.9",
     "vue": "^3.3.4"
   }
 }

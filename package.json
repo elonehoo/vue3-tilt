@@ -43,10 +43,10 @@
     "vanilla-tilt": "^1.8.1"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.43.0",
-    "@types/node": "^20.6.3",
+    "@antfu/eslint-config": "^0.43.1",
+    "@types/node": "^20.6.5",
     "bumpp": "^9.2.0",
-    "eslint": "^8.49.0",
+    "eslint": "^8.50.0",
     "tsup": "^7.2.0",
     "typescript": "^5.2.2",
     "vite": "^4.4.9",

@@ -44,12 +44,12 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.43.1",
-    "@types/node": "^20.8.7",
+    "@types/node": "^20.8.9",
     "bumpp": "^9.2.0",
     "eslint": "^8.52.0",
     "tsup": "^7.2.0",
     "typescript": "^5.2.2",
     "vite": "^4.5.0",
-    "vue": "^3.3.6"
+    "vue": "^3.3.7"
   }
 }

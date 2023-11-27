@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.3.8",
+    "vue": "^3.3.9",
     "vue3-tilt": "workspace:^"
   },
   "devDependencies": {
